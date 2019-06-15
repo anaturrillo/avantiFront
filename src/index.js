@@ -9,9 +9,11 @@ import reducers from "./reducers";
 import thunk from "redux-thunk";
 import Provider from "react-redux/es/components/Provider";
 import {checkUser} from "./actions/login";
+import {getExercises} from "./actions/exercises";
 
 const store = createStore(reducers, applyMiddleware(thunk));
 store.dispatch(checkUser());
+store.dispatch(getExercises());
 
 ReactDOM.render(
   <Provider store={store}>

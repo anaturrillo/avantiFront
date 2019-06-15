@@ -11,5 +11,5 @@ export const exerciseReducer = (
   state=[],
   action,
   type=action.type
-) => actions[type]? action[type](action, state) : state;
+) => actions[type]? actions[type](action, state) : state;
 

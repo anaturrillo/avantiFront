@@ -4,7 +4,7 @@ export const mockExercise = {
   description: 'esta es la descripcion del ejercicio',
   image: {
     animation: '',
-    static: 'http://www.yogaenmadrid.net/wp-content/uploads/2011/07/asana_bhujangasana.gif'
+    static: 'https://source.unsplash.com/1600x900/?yoga'
   }
 };
 
@@ -14,7 +14,7 @@ const mockExercises = [mockExercise, {
   description: 'esta es la descripcion del ejercicio dos',
   image: {
     animation: '',
-    static: 'https://i.pinimg.com/736x/55/a3/b7/55a3b7b72107feabd33bd834cf853474.jpg'
+    static: 'https://source.unsplash.com/1600x900/?fitness'
   }
 },{
   name: 'Ejercicio Tres',
@@ -22,7 +22,7 @@ const mockExercises = [mockExercise, {
   description: 'esta es la descripcion del ejercicio tres',
   image: {
     animation: '',
-    static: 'http://www.yogaenmadrid.net/wp-content/uploads/2011/07/asana_bhujangasana.gif'
+    static: 'https://source.unsplash.com/1600x900/?workout'
   }
 }];
 

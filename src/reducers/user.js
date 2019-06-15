@@ -2,10 +2,10 @@ import {LOAD_USER, REMOVE_USER} from "../utils/constants.actionTypes";
 
 const actions = {
   [LOAD_USER]: action => action.user,
-  [REMOVE_USER]: action => null
+  [REMOVE_USER]: () => null
 };
 
-export const usersReducer = (
+export const userReducer = (
   state = null,
   action,
   type=action.type
